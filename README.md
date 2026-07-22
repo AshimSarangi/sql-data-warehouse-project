@@ -1,105 +1,59 @@
 # sql-data-warehouse-project
 Building a modern data warehouse with SQL Server, including ETL processes, data modeling, and analytics. 
-# 🚀 SQL Data Warehouse Project
+# Data Warehouse and Analytics Project
 
-## 📌 Project Overview
+Welcome to the **Data Warehouse and Analytics Project** repository! 🚀
 
-This repository documents my journey of building a modern SQL Data Warehouse from scratch using Microsoft SQL Server.
-
-The project follows industry-standard Data Engineering practices and implements the Medallion Architecture (Bronze → Silver → Gold) to transform raw data into analytics-ready datasets.
-
-This repository is being updated as I progress through the project.
+This repository showcases my journey of building a modern SQL Data Warehouse using Microsoft SQL Server. The project demonstrates data engineering concepts such as data ingestion, transformation, dimensional modeling, and analytics while following industry best practices.
 
 ---
 
-## 🎯 Project Goals
+# 📋 Project Requirements
 
-- Learn Data Warehouse concepts
-- Design a modern SQL Data Warehouse
-- Build ETL pipelines using SQL
-- Implement the Medallion Architecture
-- Create Fact and Dimension tables
-- Perform business analytics using SQL
-- Apply Data Engineering best practices
+## Building the Data Warehouse (Data Engineering)
 
----
+### Objective
 
-## 🛠️ Tech Stack
+Develop a scalable SQL Data Warehouse that consolidates sales data from multiple source systems into a structured and analytics-ready database.
 
-- Microsoft SQL Server
-- SQL Server Management Studio (SSMS)
-- T-SQL
-- Git
-- GitHub
-- Draw.io
+### Specifications
+
+- **Data Sources:** Import ERP and CRM datasets provided as CSV files.
+- **Data Quality:** Clean, validate, and standardize the data before analysis.
+- **Integration:** Combine multiple source systems into a unified data model.
+- **Architecture:** Implement the Bronze, Silver, and Gold layers.
+- **Documentation:** Document every stage of the project for better understanding and maintainability.
 
 ---
 
-## 📂 Planned Repository Structure
+## 📊 BI: Analytics & Reporting (Data Analytics)
 
-```
-sql-data-warehouse-project/
-│
-├── datasets/
-├── docs/
-├── scripts/
-│   ├── bronze/
-│   ├── silver/
-│   └── gold/
-│
-├── screenshots/
-├── README.md
-└── LICENSE
-```
+### Objective
 
----
+Develop SQL-based analytical datasets to support business reporting and decision-making.
 
-## 📖 Learning Roadmap
+### Expected Insights
 
-- [x] Create GitHub Repository
-- [x] Set up Project Structure
-- [ ] Load Source Data
-- [ ] Build Bronze Layer
-- [ ] Build Silver Layer
-- [ ] Build Gold Layer
-- [ ] Create Star Schema
-- [ ] Develop ETL Pipeline
-- [ ] Perform Analytics
-- [ ] Complete Documentation
+- Customer Behavior
+- Product Performance
+- Sales Trends
+- Revenue Analysis
+- Top-Selling Products
+- Regional Sales Performance
+
+These insights will help stakeholders monitor business performance and make informed decisions.
 
 ---
 
-## 📈 Project Status
+# 📜 License
 
-🚧 **Project is currently under development.**
-
-I will regularly update this repository as I complete each phase of the data warehouse implementation.
+This project is licensed under the MIT License.
 
 ---
 
-## 🎓 What I'm Learning
+# 👨‍💻 About Me
 
-Throughout this project, I aim to strengthen my understanding of:
+Hi! I'm **Ashim Kumar Sarangi**, an aspiring Data Analyst and Data Engineering enthusiast. This repository documents my learning journey as I build a complete SQL Data Warehouse project from scratch and apply industry-standard data engineering practices.
 
-- Data Warehousing
-- ETL Processes
-- SQL Development
-- Data Modeling
-- Star Schema Design
-- Data Engineering Best Practices
+Feel free to explore the repository and follow my progress.
 
----
-
-## 👨‍💻 Author
-
-**Ashim Kumar Sarangi**
-
-Aspiring Data Analyst | Data Engineering Enthusiast
-
-GitHub: https://github.com/yourusername
-
-LinkedIn: https://linkedin.com/in/your-profile
-
----
-
-⭐ Follow this repository to track my progress as I build this SQL Data Warehouse project.
